@@ -1,0 +1,158 @@
+﻿~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+! Brought to you by (www.phpkd.net) !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Name:
+~~~~~~
+   * PHPKD - vB Product Translation System
+
+
+Version:
+~~~~~~~~~
+   * 4.2.100
+
+
+Description:
+~~~~~~~~~~~~~
+   * This product facilitates the process of vBulletin products/plugins translation in various ways, by listing product specific phrases/phrase types/translations in addition to phrase auto-translation suggestions.
+
+
+Thankful Partnership:
+~~~~~~~~~~~~~~~~~~~~~~
+   * Many of our products are the result of cooperation between our customers and us. Our flexibility and willingness to sit together, share ideas and escort the project through its design cycle – even beyond the technical stage – makes us true partners to our customers.
+   * Thanks must go to our main partner in this project "Khriz" ( http://www.vbulletin.org/forum/member.php?u=430772 ) for his finantial support & idea formation.
+
+
+vBulletin Compatibility:
+~~~~~~~~~~~~~~~~~~~~~~~~~
+   * All 4.0.x/4.1.x/4.2.x vBulletin Forum/Suite versions.
+
+
+Features:
+~~~~~~~~~~
+   |- General Features:-
+	* MD5 checked.
+	* Fully Phrased.
+	* Fully Automated.
+	* Fully Supported.
+	* Accurate Processing.
+	* Professionally Coded.
+	* Detailed Documentation.
+	* Doesn't require any manual edits.
+	* Depends on & uses default vBulletin techniques with full compatibility.
+	* Board Load Zero Queries, queries executed only when processing translation tasks from AdminCP.
+	* The product's code base is very solid/rich & has many possibilities to help in future development.
+	* All staff management actions through AdminCP & ModCP are logged in the "Control Panel Log".
+
+   |- Specific Features:-
+	* General:
+	     o Paged Results
+	     o Phrases to show per page option
+	     o Filter displayed phrases by: product/translation/phrase type
+	     o Download product translation in native/utf-8 encoding
+	     o Translation suggestions using Microsoft Translation API
+	* Management System:
+	     o List all phrases from plugin
+	     o List all phrases types from plugin
+	     o List all translated phrases from plugin
+	     o List all missing translated phrases from plugin
+	     o List all orphan phrases from plugin
+	     o List all new phrases from plugin today
+	     o List all new translated phrases from plugin today
+	* Statistics:
+	     o Number of all phrases from plugin
+	     o Number of all phrases types from plugin
+	     o Number of all translated phrases from plugin
+	     o Number of all missing translated phrases from plugin
+	     o Number of all orphan phrases from plugin
+	     o Number of all new phrases from plugin today
+	     o Number of all new translated phrases from plugin today
+
+
+
+
+Installation Procedure:
+~~~~~~~~~~~~~~~~~~~~~~~~
+   1. Upload required files to their appropriate places:
+	admincp
+	   phpkd_vbpts.php
+
+	clientscript
+	   jquery
+	      jquery.chained.js
+
+	includes
+	   xml
+	      cpnav_phpkd_vbpts.xml
+	   functions_phpkd_vbpts.php
+	   md5_sums_phpkd_vbpts.php
+
+   2. Import product's XML "product-phpkd_vbpts.xml" file from AdminCP.
+   3. Activate the translation suggestion feature:
+      - SignIn/SignUp with Microsoft Account - https://account.live.com
+	  - Create Windows Azure Marketplace account - https://datamarket.azure.com
+	  - SignUp for a new MICROSOFT TRANSLATOR App Data Set Subscription (There is a free package: 2,000,000 Characters) - https://datamarket.azure.com/dataset/bing/microsofttranslator
+	  - Register your application/website with Microsoft Translation API - https://datamarket.azure.com/developer/applications/register
+	  - Take a note of both values (Client ID | Client secret)
+	  - Go to: "vBulletin AdminCP -> Settings -> Options -> PHPKD - vB Product Translation System", activate the suggestion feature & enter required values you took earlier from the previous step (Client ID | Client secret)
+   4. You're Done :).
+
+
+Controls:
+~~~~~~~~~~
+   * vBulletin AdminCP -> Languages & Phrases -> Product Traslation System
+   * vBulletin AdminCP -> Settings -> Options -> PHPKD - vB Product Translation System
+
+
+License:
+~~~~~~~~~
+_____________________________________________________________
+
+Licensed under the MIT License (MIT)
+http://opensource.org/licenses/MIT/
+_____________________________________________________________
+
+
+Copyright (c) 2012 PHP KingDom
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+
+   * The above copyright notice and this permission notice shall be included in all copies or substantial
+      portions of the Software.
+
+   * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+      BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+	  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+	  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+	  OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+   * THIS SOFTWARE MAY INCLUDE OTHER COMPONENTS/LIBRARIES FROM OTHER VENDORS, AND SUBJECT TO THEIR RESPECTIVE LICENSES.
+
+_____________________________________________________________
+
+Licensed under the MIT License (MIT)
+http://opensource.org/licenses/MIT/
+_____________________________________________________________
+
+
+Help with:
+~~~~~~~~~~~
+   * Suggestions to develop this product.
+   * Contributing any updates, upgrades and/or any new features.
+   * Translations to benefit more users (translation credits goes to their owners).
+   * Spreading this product. Yes, you're free to re-distribute this product limitless wordlwide (Read License).
+
+
+History:
+~~~~~~~~~
+   * v4.2.100 25/1/2013 10:00 AM UTC: First initial 4.x.x public release.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+! Sponsored by: PHP KingDom (www.phpkd.net) !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

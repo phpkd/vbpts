@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<product productid="phpkd_vbpts" active="1">
+	<title>PHPKD - vB Product Translation System</title>
+	<description>This product facilitates the process of vBulletin products/plugins translation in various ways, by listing product specific phrases/phrase types/translations in addition to phrase auto-translation suggestions.</description>
+	<version>4.2.100</version>
+	<url><![CDATA[http://www.vbulletin.org/forum/misc.php?do=producthelp&pid=phpkd_vbpts]]></url>
+	<versioncheckurl><![CDATA[http://www.vbulletin.org/forum/misc.php?do=productcheck&pid=phpkd_vbpts]]></versioncheckurl>
+	<dependencies>
+		<dependency dependencytype="vbulletin" minversion="4.0.0" maxversion="4.2.99" />
+	</dependencies>
+	<codes>
+	</codes>
+	<templates>
+	</templates>
+	<stylevardfns>
+	</stylevardfns>
+	<stylevars>
+	</stylevars>
+	<plugins>
+	</plugins>
+	<phrases>
+		<phrasetype name="Control Panel Home Pages" fieldname="cphome">
+			<phrase name="phpkd_vbpts" date="1356212879" username="PHPKD" version="4.2.100"><![CDATA[Product Translation System]]></phrase>
+		</phrasetype>
+		<phrasetype name="Error Messages" fieldname="error">
+			<phrase name="phpkd_vbpts_invalid_dstlanguage" date="1355894449" username="PHPKD" version="4.2.100"><![CDATA[Invalid destination language(s) specified.]]></phrase>
+			<phrase name="phpkd_vbpts_invalid_dstlanguage2" date="1356473609" username="PHPKD" version="4.2.100"><![CDATA[Sorry, there is no phrases match your criteria.]]></phrase>
+			<phrase name="phpkd_vbpts_invalid_product" date="1356025366" username="PHPKD" version="4.2.100"><![CDATA[Invalid product specified.]]></phrase>
+			<phrase name="phpkd_vbpts_invalid_srclanguage" date="1355854872" username="PHPKD" version="4.2.100"><![CDATA[Invalid source language specified.]]></phrase>
+			<phrase name="phpkd_vbpts_invalid_srclanguage_missing" date="1355875111" username="PHPKD" version="4.2.100"><![CDATA[Invalid source language & filter combination!<br />
+You can <strong>NOT</strong> specify 'MASTER LANGUAGE' as a source language with 'Missing' filter.]]></phrase>
+			<phrase name="phpkd_vbpts_invalid_srclanguage_orphan" date="1355875121" username="PHPKD" version="4.2.100"><![CDATA[Invalid source language & filter combination!<br />
+You can <strong>NOT</strong> specify 'MASTER LANGUAGE' as a source language with 'Orphan' filter.]]></phrase>
+			<phrase name="phpkd_vbpts_saved_languages_successfully" date="1357347629" username="PHPKD" version="4.2.100"><![CDATA[Language(s) updated successfully.]]></phrase>
+		</phrasetype>
+		<phrasetype name="Language Tools" fieldname="language">
+			<phrase name="phpkd_vbpts" date="1355797588" username="PHPKD" version="4.2.100"><![CDATA[PHPKD - vB Product Translation System]]></phrase>
+			<phrase name="phpkd_vbpts_copy_suggested" date="1355969391" username="PHPKD" version="4.2.100"><![CDATA[Copy Suggested Translation]]></phrase>
+			<phrase name="phpkd_vbpts_criteria" date="1355798405" username="PHPKD" version="4.2.100"><![CDATA[Translation Criteria]]></phrase>
+			<phrase name="phpkd_vbpts_defaulttext" date="1355889210" username="PHPKD" version="4.2.100"><![CDATA[Default Text]]></phrase>
+			<phrase name="phpkd_vbpts_download" date="1355797902" username="PHPKD" version="4.2.100"><![CDATA[Download Language]]></phrase>
+			<phrase name="phpkd_vbpts_dstlanguage" date="1355854572" username="PHPKD" version="4.2.100"><![CDATA[Destination Language(s)]]></phrase>
+			<phrase name="phpkd_vbpts_filter" date="1357338940" username="PHPKD" version="4.2.100"><![CDATA[Filter Phrases
+<dfn>- All = All Phrases<br />- Orphan = Phrase exists in translation but not in parent global language<br />- Missing = Phrase exists in parent global language but not in translation<br /><i>With "Orphan" and "Missing" filters, only the "Source Language" is cared about, while "Destination Language(s)" totally ignored.</i></dfn>]]></phrase>
+			<phrase name="phpkd_vbpts_filter_all" date="1355813700" username="PHPKD" version="4.2.100"><![CDATA[All]]></phrase>
+			<phrase name="phpkd_vbpts_filter_missing" date="1355813728" username="PHPKD" version="4.2.100"><![CDATA[Missing]]></phrase>
+			<phrase name="phpkd_vbpts_filter_orphan" date="1355813719" username="PHPKD" version="4.2.100"><![CDATA[Orphan]]></phrase>
+			<phrase name="phpkd_vbpts_fixhtmlentity" date="1356141128" username="PHPKD" version="4.2.100"><![CDATA[Convert all HTML entities to their applicable characters]]></phrase>
+			<phrase name="phpkd_vbpts_invalid_dstlanguage2" date="1356471358" username="PHPKD" version="4.2.100"><![CDATA[Sorry, there is no phrases match your criteria.]]></phrase>
+			<phrase name="phpkd_vbpts_page" date="1355878120" username="PHPKD" version="4.2.100"><![CDATA[Page Navigation]]></phrase>
+			<phrase name="phpkd_vbpts_phrase_type" date="1357490038" username="PHPKD" version="4.2.100"><![CDATA[Phrase Type Found]]></phrase>
+			<phrase name="phpkd_vbpts_productstats" date="1356017048" username="PHPKD" version="4.2.100"><![CDATA[Independent Language Stats For Product: "{1}" <span class="normal">(productid = {2})</span>]]></phrase>
+			<phrase name="phpkd_vbpts_recentupdate" date="1355878435" username="PHPKD" version="4.2.100"><![CDATA[Recently Updated Only
+<dfn>Only display recently updated phrases (within last 24 hours).</dfn>]]></phrase>
+			<phrase name="phpkd_vbpts_srclanguage" date="1355797620" username="PHPKD" version="4.2.100"><![CDATA[Source Language]]></phrase>
+			<phrase name="phpkd_vbpts_stats_phrase_missing" date="1356017224" username="PHPKD" version="4.2.100"><![CDATA[Destination Translation(s) Missing Phrases]]></phrase>
+			<phrase name="phpkd_vbpts_stats_phrase_orphan" date="1356017181" username="PHPKD" version="4.2.100"><![CDATA[Destination Translation(s) Orphan Phrases]]></phrase>
+			<phrase name="phpkd_vbpts_stats_phrase_parent" date="1355982608" username="PHPKD" version="4.2.100"><![CDATA[Main Language Phrases]]></phrase>
+			<phrase name="phpkd_vbpts_stats_phrase_parent_today" date="1356028893" username="PHPKD" version="4.2.100"><![CDATA[Main Language Phrases Updated Today]]></phrase>
+			<phrase name="phpkd_vbpts_stats_phrase_translated" date="1356017151" username="PHPKD" version="4.2.100"><![CDATA[Destination Translation(s) Phrases]]></phrase>
+			<phrase name="phpkd_vbpts_stats_phrase_translated_today" date="1356028922" username="PHPKD" version="4.2.100"><![CDATA[Destination Translation(s) Phrases Updated Today]]></phrase>
+			<phrase name="phpkd_vbpts_stats_phrasetype_specific" date="1355982594" username="PHPKD" version="4.2.100"><![CDATA[Specific Phrasetypes]]></phrase>
+			<phrase name="phpkd_vbpts_stats_phrasetype_used" date="1355982583" username="PHPKD" version="4.2.100"><![CDATA[Phrasetypes Used]]></phrase>
+			<phrase name="phpkd_vbpts_suggestion" date="1355959808" username="PHPKD" version="4.2.100"><![CDATA[Translation Suggestion]]></phrase>
+			<phrase name="phpkd_vbpts_translate" date="1355798925" username="PHPKD" version="4.2.100"><![CDATA[Translate Product]]></phrase>
+		</phrasetype>
+		<phrasetype name="vBulletin Settings" fieldname="vbsettings">
+			<phrase name="setting_phpkd_vbpts_suggestion_active_desc" date="1356143894" username="PHPKD" version="4.2.100"><![CDATA[Turn "On" to activate translation suggestion feature provided by "<a href="http://www.microsofttranslator.com/dev/" target="_blank">Microsoft Translation API</a>".]]></phrase>
+			<phrase name="setting_phpkd_vbpts_suggestion_active_title" date="1356143894" username="PHPKD" version="4.2.100"><![CDATA[Translation Suggestion Active]]></phrase>
+			<phrase name="setting_phpkd_vbpts_suggestion_clientid_desc" date="1356144774" username="PHPKD" version="4.2.100"><![CDATA[If you've enabled "Translation Suggestion Active" feature, then you should enter ClientID here, you can get it from your account registration over <a href="https://datamarket.azure.com/account/applications" target="_blank">Windows Azure Marketplace</a>".]]></phrase>
+			<phrase name="setting_phpkd_vbpts_suggestion_clientid_title" date="1356144774" username="PHPKD" version="4.2.100"><![CDATA[Microsoft Translation API ClientID]]></phrase>
+			<phrase name="setting_phpkd_vbpts_suggestion_clientsecret_desc" date="1356144826" username="PHPKD" version="4.2.100"><![CDATA[If you've enabled "Translation Suggestion Active" feature, then you should enter ClientSecret here, you can get it from your account registration over <a href="https://datamarket.azure.com/account/applications" target="_blank">Windows Azure Marketplace</a>".]]></phrase>
+			<phrase name="setting_phpkd_vbpts_suggestion_clientsecret_title" date="1356144826" username="PHPKD" version="4.2.100"><![CDATA[Microsoft Translation API ClientSecret]]></phrase>
+			<phrase name="settinggroup_phpkd_vbpts" date="1356143728" username="PHPKD" version="4.2.100"><![CDATA[PHPKD - vB Product Translation System]]></phrase>
+		</phrasetype>
+	</phrases>
+	<options>
+		<settinggroup name="phpkd_vbpts" displayorder="6700">
+			<setting varname="phpkd_vbpts_suggestion_active" displayorder="10">
+				<datatype>boolean</datatype>
+				<optioncode>yesno</optioncode>
+				<defaultvalue>1</defaultvalue>
+			</setting>
+			<setting varname="phpkd_vbpts_suggestion_clientid" displayorder="20">
+				<datatype>free</datatype>
+			</setting>
+			<setting varname="phpkd_vbpts_suggestion_clientsecret" displayorder="30">
+				<datatype>free</datatype>
+			</setting>
+		</settinggroup>
+	</options>
+	<helptopics>
+	</helptopics>
+	<cronentries>
+	</cronentries>
+	<faqentries>
+	</faqentries>
+	<navigation>
+	</navigation>
+</product>

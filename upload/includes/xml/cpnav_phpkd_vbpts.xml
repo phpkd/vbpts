@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<navgroups product="phpkd_vbpts">
+	<navgroup phrase="languages_and_phrases" permissions="canadminlanguages" displayorder="30">
+		<navoption displayorder="60">
+			<phrase>phpkd_vbpts</phrase>
+			<link>phpkd_vbpts.php?do=main</link>
+		</navoption>
+	</navgroup>
+</navgroups>
