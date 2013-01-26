@@ -154,7 +154,7 @@ History:
    * v4.2.100 25/1/2013 10:00 AM UTC: First initial 4.x.x public release.
 
 
-Technical Notes:
+Technical Stats:
 ~~~~~~~~~~~~~~~~~
    * New Plugins: 0
    * New Phrases: 42
