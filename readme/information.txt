@@ -154,6 +154,31 @@ History:
    * v4.2.100 25/1/2013 10:00 AM UTC: First initial 4.x.x public release.
 
 
+Technical Notes:
+~~~~~~~~~~~~~~~~~
+   * New Plugins: 0
+   * New Phrases: 42
+   * New Templates: 0
+   * Manual Template changes: 0
+   * Auto Template changes: 0
+   * New Files: 6
+   * Manual File Changes: 0
+   * New vBulletin Settings: 3
+   * New Usergroup Permissions: 0
+   * New Moderator Permissions: 0
+   * New Administrator Permissions: 0
+   * New Forum Options: 0
+   * New DB Tables: 0
+   * DB Alterations: 0
+   * New Cronjobs: 0
+   * New FAQ Items: 0
+   * New Help Topics: 0
+   * New Style Variables: 0
+     --------------------------------
+   * Installation Level: V.Easy
+   * Installation Time: ~20 seconds
+
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ! Sponsored by: PHP KingDom (www.phpkd.net) !
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
